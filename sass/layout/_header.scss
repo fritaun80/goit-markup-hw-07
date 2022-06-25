@@ -1,0 +1,89 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+
+  &__logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  text-decoration: none;
+  color: var(--accent-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+  &__logo-studio {
+  color: var(--logo-studio);
+}
+
+  &__contacts {
+  margin-left: auto;
+}
+
+  &__email {
+  margin-right: 28px;
+}
+
+&__email,
+&__tel {
+  font-size: 14px;
+  color: var(--subcolor);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+&__email:hover,
+&__email:focus,
+&__tel:hover,
+&__tel:focus {
+  color: var(--accent-color);
+}
+
+&__email:hover &__email-icon, 
+&__email:focus &__email-icon {
+  fill: var(--accent-color);
+}
+
+&__tel:hover &__phone-icon,
+&__tel:focus &__phone-icon {
+  fill: var(--accent-color);
+}
+
+&__contacts-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+&__email-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--subcolor);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+&__phone-icon {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--subcolor);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+}
+
+

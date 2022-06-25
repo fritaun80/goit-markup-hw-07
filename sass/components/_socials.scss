@@ -1,0 +1,62 @@
+
+/* =======      SOCIALS       ======= */
+
+.socialnet__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.socialnet__item {
+  margin-right: 10px;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:last-child {
+  margin-right: 0;
+}
+}
+
+
+.socialnet__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--svg-fill);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socialnet__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 50%;
+
+&:last-child {
+  margin-right: 0px;
+}
+
+&:hover,
+&:focus {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+   
+    .socialnet__icon {
+  fill: var(--bg-color);
+}
+}
+}

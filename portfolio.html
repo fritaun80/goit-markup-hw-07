@@ -15,45 +15,45 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <!--  ===== HEADER ===== -->
 
+ 
   <body>
     <header class="header">
       <div class="container navigation">
         <nav class="navigation">
-          <a class="logo" href="./index.html"
-            >Web<span class="studio">Studio</span></a
+          <a class="header__logo" href="./index.html"
+            >Web<span class="header__studio">Studio</span></a
           >
 
-          <ul class="header-list navigation">
-            <li class="header-list-item">
-              <a class="header-link" href="./index.html">Студия</a>
+          <ul class="navigation__list navigation">
+            <li class="navigation__list-item">
+              <a class="navigation__link" href="./index.html">Студия</a>
             </li>
-            <li class="header-list-item">
-              <a class="header-link-current" href="./portfolio.html"
-                >Портфолио</a
-              >
+            <li class="navigation__list-item">
+              <a class="navigation__link-current" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="header-list-item">
-              <a class="header-link" href="/">Контакты</a>
+            <li class="navigation__list-item">
+              <a class="navigation__link" href="/">Контакты</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="header-contacts navigation">
-          <li class="header-contacts-item">
-            <a class="header-email" href="mailto:info@devstudio.com">
-              <svg class="email-icon">
+        <ul class="header__contacts navigation">
+          <li class="header__contacts-item">
+            <a class="header__email" href="mailto:info@devstudio.com">
+              <svg class="header__email-icon">
                 <use href="./images/icons.svg#envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="header-contacts-item">
-            <a class="header-tel" href="tel:+380961111111">
-              <svg class="phone-icon">
+          <li class="header__contacts-item">
+            <a class="header__tel" href="tel:+380961111111">
+              <svg class="header__phone-icon">
                 <use href="./images/icons.svg#phone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -68,229 +68,229 @@
     <section class="filter section">
       <div class="container">
         <h1 hidden>filter</h1>
-        <ul class="filter-list">
-          <li class="filter-list-item">
-            <button type="button" class="filter-button-current">Все</button>
-            <a class="filter-link" href=""></a>
+        <ul class="filter__list">
+          <li class="filter__list-item">
+            <button type="button" class="filter__button-current">Все</button>
+            <a class="filter__link" href=""></a>
           </li>
-          <li class="filter-list-item">
-            <button type="button" class="filter-button">Веб-сайты</button>
+          <li class="filter__list-item">
+            <button type="button" class="filter__button">Веб-сайты</button>
           </li>
-          <li class="filter-list-item">
-            <button type="button" class="filter-button">Приложения</button>
+          <li class="filter__list-item">
+            <button type="button" class="filter__button">Приложения</button>
           </li>
-          <li class="filter-list-item">
-            <button type="button" class="filter-button">Дизайн</button>
+          <li class="filter__list-item">
+            <button type="button" class="filter__button">Дизайн</button>
           </li>
-          <li class="filter-list-item">
-            <button type="button" class="filter-button">Маркетинг</button>
+          <li class="filter__list-item">
+            <button type="button" class="filter__button">Маркетинг</button>
           </li>
         </ul>
 
         <!-- ======= WORKS ======= -->
 
-        <ul class="works-list">
-          <li class="works-list-item">
-            <a class="works-link" href="">
-              <div class="works-thumb">
+        <ul class="works__list">
+          <li class="works__list-item">
+            <a class="works__link" href="">
+              <div class="works__thumb">
                 <img
                   src="./images/portfolio/techno.jpg"
                   width="370"
                   alt="Технокряк"
-                  class="works-image"
+                  class="works__image"
                 />
-                <p class="works-thumb-text">
+                <p class="works__thumb-text">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице
                 </p>
               </div>
-              <div class="div-works">
-                <h2 class="works-title">Технокряк</h2>
-                <p class="works-text">Веб-сайт</p>
+              <div class="works__div">
+                <h2 class="works__title">Технокряк</h2>
+                <p class="works__text">Веб-сайт</p>
               </div>
             </a>
           </li>
-          <li class="works-list-item">
-            <a class="works-link" href="">
-              <div class="works-thumb">
+          <li class="works__list-item">
+            <a class="works__link" href="">
+              <div class="works__thumb">
                 <img
                   src="./images/portfolio/poster.jpg"
                   width="370"
                   alt="Постер"
-                  class="works-image"
+                  class="works__image"
                 />
-                <p class="works-thumb-text">
+                <p class="works__thumb-text">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице
                 </p>
               </div>
-              <div class="div-works">
-                <h2 class="works-title">
+              <div class="works__div">
+                <h2 class="works__title">
                   Постер <span lang="en">New Orlean vs Golden Star</span>
                 </h2>
-                <p class="works-text">Дизайн</p>
+                <p class="works__text">Дизайн</p>
               </div>
             </a>
           </li>
 
-          <li class="works-list-item">
-            <a class="works-link" href="">
-              <div class="works-thumb">
+          <li class="works__list-item">
+            <a class="works__link" href="">
+              <div class="works__thumb">
                 <img
                   src="./images/portfolio/seafood.jpg"
                   width="370"
                   alt="Ресторан Seafood"
-                  class="works-image"
+                  class="works__image"
                 />
-                <p class="works-thumb-text">
+                <p class="works__thumb-text">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице
                 </p>
               </div>
-              <div class="div-works">
-                <h2 class="works-title">
+              <div class="works__div">
+                <h2 class="works__title">
                   Ресторан <span lang="en">Seafood</span>
                 </h2>
-                <p class="works-text">Приложение</p>
+                <p class="works__text">Приложение</p>
               </div>
             </a>
           </li>
 
-          <li class="works-list-item">
-            <a class="works-link" href="">
-              <div class="works-thumb">
+          <li class="works__list-item">
+            <a class="works__link" href="">
+              <div class="works__thumb">
                 <img
                   src="./images/portfolio/prime.jpg"
                   width="370"
                   alt="Проект Prime"
-                  class="works-image"
+                  class="works__image"
                 />
-                <p class="works-thumb-text">
+                <p class="works__thumb-text">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице
                 </p>
               </div>
-              <div class="div-works">
-                <h2 class="works-title">Проект <span lang="en">Prime</span></h2>
-                <p class="works-text">Маркетинг</p>
+              <div class="works__div">
+                <h2 class="works__title">Проект <span lang="en">Prime</span></h2>
+                <p class="works__text">Маркетинг</p>
               </div>
             </a>
           </li>
 
-          <li class="works-list-item">
-            <a class="works-link" href="">
-              <div class="works-thumb">
+          <li class="works__list-item">
+            <a class="works__link" href="">
+              <div class="works__thumb">
                 <img
                   src="./images/portfolio/boxes.jpg"
                   width="370"
                   alt="Проект Boxes"
-                  class="works-image"
+                  class="works__image"
                 />
-                <p class="works-thumb-text">
+                <p class="works__thumb-text">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице
                 </p>
               </div>
-              <div class="div-works">
-                <h2 class="works-title">Проект <span lang="en">Boxes</span></h2>
-                <p class="works-text">Приложение</p>
+              <div class="works__div">
+                <h2 class="works__title">Проект <span lang="en">Boxes</span></h2>
+                <p class="works__text">Приложение</p>
               </div>
             </a>
           </li>
 
-          <li class="works-list-item">
-            <a class="works-link" href="">
-              <div class="works-thumb">
+          <li class="works__list-item">
+            <a class="works__link" href="">
+              <div class="works__thumb">
                 <img
                   src="./images/portfolio/inspiration.jpg"
                   width="370"
                   alt="Inspiration has no Borders"
-                  class="works-image"
+                  class="works__image"
                 />
-                <p class="works-thumb-text">
+                <p class="works__thumb-text">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице
                 </p>
               </div>
-              <div class="div-works">
-                <h2 lang="en" class="works-title">
+              <div class="works__div">
+                <h2 lang="en" class="works__title">
                   Inspiration has no Borders
                 </h2>
-                <p class="works-text">Веб-сайт</p>
+                <p class="works__text">Веб-сайт</p>
               </div>
             </a>
           </li>
 
-          <li class="works-list-item">
-            <a class="works-link" href="">
-              <div class="works-thumb">
+          <li class="works__list-item">
+            <a class="works__link" href="">
+              <div class="works__thumb">
                 <img
                   src="./images/portfolio/ltd.jpg"
                   width="370"
                   alt="Издание Limited Edition"
-                  class="works-image"
+                  class="works__image"
                 />
-                <p class="works-thumb-text">
+                <p class="works__thumb-text">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице
                 </p>
               </div>
-              <div class="div-works">
-                <h2 class="works-title">
+              <div class="works__div">
+                <h2 class="works__title">
                   Издание <span lang="en">Limited Edition</span>
                 </h2>
-                <p class="works-text">Дизайн</p>
+                <p class="works__text">Дизайн</p>
               </div>
             </a>
           </li>
 
-          <li class="works-list-item">
-            <a class="works-link" href="">
-              <div class="works-thumb">
+          <li class="works__list-item">
+            <a class="works__link" href="">
+              <div class="works__thumb">
                 <img
                   src="./images/portfolio/lab.jpg"
                   width="370"
                   alt="Проект LAB"
-                  class="works-image"
+                  class="works__image"
                 />
-                <p class="works-thumb-text">
+                <p class="works__thumb-text">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице
                 </p>
               </div>
-              <div class="div-works">
-                <h2 class="works-title">Проект <span lang="en">LAB</span></h2>
-                <p class="works-text">Маркетинг</p>
+              <div class="works__div">
+                <h2 class="works__title">Проект <span lang="en">LAB</span></h2>
+                <p class="works__text">Маркетинг</p>
               </div>
             </a>
           </li>
 
-          <li class="works-list-item">
-            <a class="works-link" href="">
-              <div class="works-thumb">
+          <li class="works__list-item">
+            <a class="works__link" href="">
+              <div class="works__thumb">
                 <img
                   src="./images/portfolio/biz.jpg"
                   width="370"
                   alt="Growing Business"
-                  class="works-image"
+                  class="works__image"
                 />
-                <p class="works-thumb-text">
+                <p class="works__thumb-text">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице
                 </p>
               </div>
-              <div class="div-works">
-                <h2 class="works-title" lang="en">Growing Business</h2>
-                <p class="works-text">Приложение</p>
+              <div class="works__div">
+                <h2 class="works__title" lang="en">Growing Business</h2>
+                <p class="works__text">Приложение</p>
               </div>
             </a>
           </li>
@@ -301,74 +301,92 @@
     <!-- ===== FOOTER ===== -->
     <footer class="footer">
       <div class="container">
-        <div class="footer-position">
-          <div class="footer-contacts">
-            <a class="footer-logo" href="./index.html"
-              >Web<span class="footer-studio">Studio</span></a
+        <div class="footer__position">
+          <div class="footer__contacts">
+            <a class="footer__logo" href="./index.html"
+              >Web<span class="footer__studio">Studio</span></a
             >
             <address class="address">
-              <div class="footer-position">
-                <ul class="address-list">
-                  <li class="address-item">
-                    <a
-                      class="address-link"
-                      href="https://goo.gl/maps/VYnGPaPWPmDUomws7"
-                      target="_blank"
-                      rel="noopener nofollow no referrer"
-                    >
-                      г. Киев, пр-т Леси Украинки, 26</a
-                    >
-                  </li>
-                  <li class="address-item">
-                    <a class="footer-mail" href="mailto:info@devstudio.com"
-                      >info@devstudio.com</a
-                    >
-                  </li>
-                  <li class="address-item">
-                    <a class="footer-tel" href="tel:+380961111111"
-                      >+38 096 111 11 11</a
-                    >
-                  </li>
-                </ul>
-              </div>
+              <ul class="address__list">
+                <li class="address__item">
+                  <a
+                    class="address__link"
+                    href="https://goo.gl/maps/VYnGPaPWPmDUomws7"
+                    target="_blank"
+                    rel="noopener nofollow no referrer"
+                  >
+                    г. Киев, пр-т Леси Украинки, 26</a
+                  >
+                </li>
+                <li class="address__item">
+                  <a class="address__email" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="address__item">
+                  <a class="address__tel" href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
             </address>
           </div>
 
           <!-- ===== JOIN ===== -->
 
-          <div class="footer-join">
-            <p class="join-title">Присоединяйтесь</p>
-            <ul class="join-list">
-              <li class="join-list-item">
-                <a class="join-link" href="http://www.instagram.com">
-                  <svg class="join-icon" width="20" height="20">
+          <div class="join">
+            <p class="join__title">Присоединяйтесь</p>
+            <ul class="join__list">
+              <li class="join__list-item">
+                <a class="join__link" href="http://www.instagram.com">
+                  <svg class="join__icon" width="20" height="20">
                     <use href="./images/icons.svg#insta"></use>
                   </svg>
                 </a>
               </li>
-              <li class="join-list-item">
-                <a class="join-link" href="http://www.twitter.com">
-                  <svg class="join-icon" width="20" height="20">
+              <li class="join__list-item">
+                <a class="join__link" href="http://www.twitter.com">
+                  <svg class="join__icon" width="20" height="20">
                     <use href="./images/icons.svg#twtr"></use>
                   </svg>
                 </a>
               </li>
-              <li class="join-list-item">
-                <a class="join-link" href="http://www.facebook.com">
-                  <svg class="join-icon" width="20" height="20">
+              <li class="join__list-item">
+                <a class="join__link" href="http://www.facebook.com">
+                  <svg class="join__icon" width="20" height="20">
                     <use href="./images/icons.svg#facebook"></use>
                   </svg>
                 </a>
               </li>
-              <li class="join-list-item">
-                <a class="join-link" href="http://www.linkedin.com">
-                  <svg class="join-icon" width="20" height="20">
+              <li class="join__list-item">
+                <a class="join__link" href="http://www.linkedin.com">
+                  <svg class="join__icon" width="20" height="20">
                     <use href="./images/icons.svg#in"></use>
                   </svg>
                 </a>
               </li>
             </ul>
           </div>
+
+          <!-- ====== SIGN UP ===== -->
+
+          <form class="sign-up">
+            <p class="sign-up__title">подпишитесь на рассылку</p>
+            <label class="sign-up__label">
+              <input
+                class="sign-up__input"
+                type="email"
+                name="sign-up"
+                placeholder="E-mail"
+            /></label>
+
+            <button type="submit" class="sign-up__button">
+              Подписаться
+              <svg class="sign-up__icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>

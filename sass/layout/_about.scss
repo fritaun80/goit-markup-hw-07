@@ -1,0 +1,51 @@
+/* ======= ABOUT ======= */
+.about__padding {
+  padding-top: 0%;
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  color: var(--main-color);
+  margin-bottom: 50px;
+}
+
+.about__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.about__image {
+  display: block;
+}
+
+.about__list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about__thumb {
+  position: relative;
+}
+
+.about__thumb-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+
+  text-transform: uppercase;
+  color: var(--bg-color);
+  font-weight: 700;
+  background-color: rgba(47, 48, 58, 0.8);
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
