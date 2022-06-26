@@ -1,14 +1,14 @@
 
 /* =======      SOCIALS       ======= */
 
-.socialnet__list {
+.socialnet {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
-}
 
-.socialnet__item {
+
+&__item {
   margin-right: 10px;
 
   transition-property: background-color;
@@ -21,7 +21,7 @@
 }
 
 
-.socialnet__icon {
+&__icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,6 +30,7 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 }
 
 .socialnet__link {
